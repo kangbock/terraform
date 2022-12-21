@@ -7,4 +7,4 @@ sudo git clone https://github.com/kangbock/project.git
 sudo systemctl restart docker
 sudo systemctl enable docker
 sudo docker build -t kangbock/nodejs:lkb project/nodejs/.
-sudo docker run -itd --name j1 -p 3000:3000 nodejs:lkb
+sudo docker run -itd --name j1 -p 3000:3000 kangbock/nodejs:lkb
