@@ -7,4 +7,4 @@ sudo git clone https://github.com/kangbock/project.git
 sudo systemctl restart docker
 sudo systemctl enable docker
 sudo docker build -t kangbock/nginx:lkb project/nginx/.
-sudo docker run -itd --name n1 -p 80:80 nginx:lkb
+sudo docker run -itd --name n1 -p 80:80 kangbock/nginx:lkb
